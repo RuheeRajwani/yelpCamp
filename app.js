@@ -42,7 +42,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, "views"));
 app.use(methodOverride('_method'))
 
-const secret = proccess.env.SECRET || 'thisshouldbeabettersecret';
+const secret = process.env.SECRET || 'thisshouldbeabettersecret';
 
 const store = MongoStore.create({
     mongoUrl: dbUrl,

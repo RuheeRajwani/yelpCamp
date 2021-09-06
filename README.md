@@ -1,5 +1,5 @@
 # yelpCamp
-Project following the end of Colt Steele Web Development Bootcap meant to be a version of Yelp soley for Campgrounds. 
+Project following the end of Colt Steele Web Development Bootcap meant to be a version of Yelp solely for Campgrounds. 
 
 Before running set the following enviornment variables: 
 CLOUDINARY_CLOUD_NAME
